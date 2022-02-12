@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+        }
+        .parent {
+            border: 1px solid #000;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            align-items: flex-end;
+        }
+        .children {
+            background-color: aqua;
+            width: 20%;
+            padding: 10px;
+            height: 100px;
+        }
+        .header {display: flex;width: 100%;justify-content: space-between;} 
+        .logo {
+
+        }
+        .nav-list {display: flex;list-style: none;padding: 0;margin: 0;margin-right: auto;}
+        .nav-button {
+        justify-content: flex-end;
+        
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="logo">Logo</div>
+        <ul class="nav-list">
+            <li><a href="#">About 1</a></li>
+            <li><a href="#">About 2</a></li>
+            <li><a href="#">About 3</a></li>
+        </ul>
+        <div class="nav-button">Text 3</div>
+    </div>
+</body>
+</html>

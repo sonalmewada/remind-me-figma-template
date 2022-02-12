@@ -1,0 +1,181 @@
+@media screen and (max-width:480px) {
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,500;0,600;0,700;0,800;0,900;1,200&display=swap');
+body{
+    font-family: 'Poppins' sans-serif;
+}
+.nav-content{
+    display: none;
+}
+.nav-btn{
+    display: none;
+}
+
+.nav-menu-open ul{
+    margin: 0;
+    align-items: left;
+}
+.nav-menu-open li{
+    list-style-type: none;
+    padding: 20px 0px;
+}
+.nav-menu-open a{
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.nav-menu-open .nav-btn-mobile{
+    border-radius: 100px;
+    padding:10px 30px;
+    border-radius: 100px;
+    font-size: 16px;
+    font-weight: 400;
+    
+}
+
+.nav-menu{
+    display: block;
+}
+.nav-menu-open{
+    background-color: #fff;
+    display: none;
+}
+      
+.banner-section figure{
+    position: static;
+    top:700px;
+    width:100%;
+}
+.hero-img{
+    padding:0px;
+}
+.banner-section figure img{
+    border-radius: 0px 0px;
+    width:100%;
+    height:auto;
+}
+.banner-content>h1{
+    padding:0px;
+    font-size: 48px;
+    line-height: 70px;
+    font-weight: 600px;
+}
+.banner-content p{
+    line-height: 36px;
+    padding:40px 0px 40px 0px;
+    font-size: 18px;
+}
+.banner-content{
+    padding:150px 30px 50px 30px ;
+} 
+.services{
+    padding:50px 30px;
+    text-align: center;
+}
+.services h4{
+    text-align: center;
+    font-size: 24px;
+}
+.services p{
+    font-size:18px;
+    text-align: center;
+}
+.schedule-menu{
+    display: flex;
+    flex-direction: column;
+    padding:0px;
+}
+.schedule-img{
+    display: none;
+}
+.schedule-img-mobile{
+    display: block;
+}
+.schedule-content{
+    margin:0px;
+    padding:50px 30px;
+}
+.schedule-content h1{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 40px;
+}
+.schedule-content p{
+    margin-top: 25px;
+}
+.notification{
+    margin:0px;
+}
+.notification-img{
+    display: none;
+}
+.notification-content{
+     margin:0px;
+     padding:50px 30px 0px;
+}
+.notification-content h1{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 40px;
+    padding-top: 0px;
+}
+.notification-img-mobile{
+    display: block;
+}
+.notification-content p{
+    margin-top: 0px;
+}
+.download-app{
+    padding:50px 30px;
+}
+.download-content{
+    background-image: url("../images/Mask Group-mobile.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.download-content .buttons{
+    padding:50px 0px;
+}
+.download-content .download{
+    margin:0px;
+}
+.download-content .about{
+    margin:0px;
+    margin-top: 25px;
+}
+.testimonial-img{
+    display: none;
+}
+.testimonial-intro{
+    margin:0px;
+}
+.owl-carousel .owl-item img{
+width:auto;
+}
+.testimonial-intro h2{
+    padding:50px 30px 50px;
+}
+.profile{
+    padding-bottom:40px;
+}
+
+
+ p.profile-content{
+    padding:0px 30px;
+    font-size: 18px;
+    line-height: 30px;
+}
+.footer{
+    padding:80px 30px;
+}
+.logo-intro img{
+    width:200px;
+    height:65px;
+    padding:0px;
+}
+.logo-intro p{
+    padding:25px 0px;
+}
+.social-links{
+    padding-left: 10px;
+}
+}
